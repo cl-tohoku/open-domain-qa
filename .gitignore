@@ -1,0 +1,10 @@
+**/__pycache__
+**/work/
+**/tmp/
+**/datasets/
+**/outputs/
+**/logs/
+**/experiments/
+
+.python-version
+.log*
