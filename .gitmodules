@@ -4,3 +4,6 @@
 [submodule "retrievers/aio2-soseki-baseline"]
 	path = retrievers/aio2-soseki-baseline
 	url = https://github.com/singletongue/aio2-soseki-baseline
+[submodule "vectorizers/aio2-tfidf-baseline"]
+	path = vectorizers/aio2-tfidf-baseline
+	url = git@github.com:singletongue/aio2-tfidf-baseline.git
