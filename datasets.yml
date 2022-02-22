@@ -1,0 +1,43 @@
+運転ドメインQA:
+  doc: https://nlp.ist.i.kyoto-u.ac.jp/index.php?Driving%20domain%20QA%20datasets
+    code: SLUD2021/src/data/reformat/convert_squad.py
+    data:
+      squad:
+        train: /work02/SLUD2021/datasets/QA/DDQA/DDQA-1.0_RC-QA_train.json
+        valid: /work02/SLUD2021/datasets/QA/DDQA/DDQA-1.0_RC-QA_dev.json
+        test: /work02/SLUD2021/datasets/QA/DDQA/DDQA-1.0_RC-QA_test.json
+
+解答可能性付きQAデータセット:
+  doc: http://www.cl.ecei.tohoku.ac.jp/rcqa/
+  data:
+    squad: /work02/SLUD2021/datasets/QA/RCQA/RCAQ_SQuAD.json
+
+JAQKET:
+  doc: https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/
+  data:
+    jsonl: /work02/SLUD2021/datasets/QA/JAQKET/JAQKET_QA_data.jsonl
+
+MKQA: 
+  doc: https://github.com/apple/ml-mkqa
+  data:
+    jsonl: /work02/SLUD2021/datasets/QA/MKQA/MKQA_QA_data.jsonl
+
+NIILC:
+  doc: https://mynlp.is.s.u-tokyo.ac.jp/niilc-qa/
+  data:
+    jsonl: /work02/SLUD2021/datasets/QA/NIILC/NIILC_QA_data.jsonl
+
+KUCI:
+  docs: https://nlp.ist.i.kyoto-u.ac.jp/?KUCI
+  data:
+    train: /work02/SLUD2021/datasets/KUCI/train.jsonl
+    valid: /work02/SLUD2021/datasets/KUCI/development.jsonl
+    test: /work02/SLUD2021/datasets/KUCI/test.jsonl
+  size: 29M/3.6M/3.6M
+  liens: 83127/10228/10291
+
+JaQuAD:
+  doc: https://github.com/SkelterLabsInc/JaQuAD
+  arxiv: https://arxiv.org/abs/2202.01764
+  path: JaQuAD.load_jaquad
+  class: JaQuAD 
