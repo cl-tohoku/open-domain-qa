@@ -1,0 +1,6 @@
+[submodule "retrievers/AIO2_DPR_baseline"]
+	path = retrievers/AIO2_DPR_baseline
+	url = https://github.com/cl-tohoku/AIO2_DPR_baseline.git
+[submodule "retrievers/aio2-soseki-baseline"]
+	path = retrievers/aio2-soseki-baseline
+	url = https://github.com/singletongue/aio2-soseki-baseline
