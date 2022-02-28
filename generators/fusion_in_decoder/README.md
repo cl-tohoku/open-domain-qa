@@ -20,7 +20,24 @@ $ bash scripts/set_env.sh
 ## データセット
 
 ### 取得
-TBA
+
+1. `{ROOT_REPOSITORY}/datasets.yml` ファイルに以下を追記
+
+```yml
+DprRetrieved:
+  path: JaqketAIO.load_jaqketaio2
+  class: JaqketAIO
+  data:
+    train: {retrieved_train}
+    dev: {retrieved_dev}
+    test: {retrieved_test}
+    unused: {retrieved_unused}
+```
+
+```bash
+$ cd {ROOT_REPOSITORY}
+$ python prepro/convert_dataset.py DprRetrieved fusion_in_decoder
+```
 
 ### 形式
 以下のインスタンスからなる JSON/JSONL ファイルを使用
