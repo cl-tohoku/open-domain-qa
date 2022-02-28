@@ -1,9 +1,12 @@
 # Fusion-in-Decoder (FiD)
 
 - This directory is forked by [facebookresearch/FiD](https://github.com/facebookresearch/FiD)
+- Izacard+'21 - Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering (EACL) [[arXiv](https://arxiv.org/abs/2007.01282)]
+  - Yamada+'21 - オープンドメイン質問応答技術の最新動向 (AI王2021) [[Speaker Deck](https://speakerdeck.com/ikuyamada/opundomeinzhi-wen-ying-da-ji-shu-falsezui-xin-dong-xiang?slide=39)]
+    > <img src="https://i.gyazo.com/f8771cde1ad3322d59d31ea8c11c6f02.png" alt="fid" title="fusion-in-decoder">
 
-<img src="https://files.esa.io/uploads/production/attachments/4896/2022/02/09/49957/27069d54-7b0a-4a89-8f73-16511d10dfa9.png" alt="fid" title="fusion-in-decoder">
 
+## 設定
 
 ```bash
 $ cd aobav2/aoba/dialogs/fid
