@@ -48,7 +48,8 @@ class DataFormatter:
                         "answers": instance["answers"],
                         "ctxs": instance[keys["ctxs"]]
                     }
-                    fo.write(json.dumps(obj, ensure_ascii=False) + "\n")
+                    if all(o for o in obj.values()):
+                        fo.write(json.dumps(obj, ensure_ascii=False) + "\n")
                 logger.info(f"write ... {fo.name}")
 
 
