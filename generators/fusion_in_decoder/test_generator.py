@@ -3,7 +3,7 @@
 # 
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
-
+import os
 from datetime import datetime as dt
 import logging
 from pathlib import Path
@@ -59,6 +59,7 @@ def evaluate(args, dataset, collator, tokenizer, model):
         model.reset_score_storage() 
     if args.write_results:
         write_path = Path(args.checkpoint_dir) / args.name / "test_results"
+        os.makedirs(write_path, exist_ok=True)
         fw = open(write_path / ("%d.txt" % args.global_rank), "a")
 
     with torch.no_grad():

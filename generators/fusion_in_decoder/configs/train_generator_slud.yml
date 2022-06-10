@@ -5,9 +5,10 @@ total_step: 15000
 eval_step: 20
 
 # dataset
-train_data: "/work02/miyawaki/exp2022/test_fid/datasets/fusion_in_decoder/JaqketAIO/unused.jsonl"
-eval_data: "/work02/miyawaki/exp2022/test_fid/datasets/fusion_in_decoder/JaqketAIO/dev.jsonl"
-checkpoint_dir: "/work02/miyawaki/exp2022/test_fid/models/fusion_in_decoder"
+# "open-domain-qa/prepro/convert_dataset.py"によって作成された"open-domain-qa/datasets/fusion_in_decoder/DprRetrieved/*"を指定すれば良い
+train_data: "/work02/ariyama/exp2022/test_fid/datasets/fusion_in_decoder/JaqketAIO/train.jsonl"
+eval_data: "/work02/ariyama/exp2022/test_fid/datasets/fusion_in_decoder/JaqketAIO/dev.jsonl"
+checkpoint_dir: "/work02/ariyama/exp2022/test_fid/models/fusion_in_decoder/operation_test"
 # train_data: "/groups/gcd50664/miyawaki/DPR_for_AIO/rcqa2/retrieved/train_rcqa_50.230.json"
 # eval_data: "/groups/gcd50664/miyawaki/DPR_for_AIO/jaqket2/retrieved/aio_2020_dev_50.230.json"
 # checkpoint_dir: "/groups/1/gcb50246/migrated_from_SFA_GPFS/miyawaki/FiD/models/jaqket"

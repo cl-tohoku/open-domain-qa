@@ -65,7 +65,7 @@ $ bash scripts/train_generator.sh configs/train_generator_slud.yml
 ## 評価
 
 ```bash
-$ bash scripts/train_generator.sh configs/train_generator_slud.yml
+$ bash scripts/test_generator.sh configs/test_generator_slud.yml
 ```
 
 

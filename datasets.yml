@@ -14,6 +14,15 @@ JaqketAIO:
     test: datasets/aio/aio_01_test_retriever.json.gz
     unused: datasets/aio/aio_01_unused_retriever.json.gz
 
+DprRetrieved:
+  path: JaqketAIO.load_jaqketaio2
+  class: JaqketAIO
+  data:
+    train: /work02/ariyama/exp2022/test_fid/datasets/aio/abc_01-12_retriever.json.gz
+    dev: /work02/ariyama/exp2022/test_fid/datasets/aio/aio_01_dev_retriever.json.gz
+    test: /work02/ariyama/exp2022/test_fid/datasets/aio/aio_01_test_retriever.json.gz
+    unused: /work02/ariyama/exp2022/test_fid/datasets/aio/aio_01_unused_retriever.json.gz
+
 # 運転ドメインQA:
 #   doc: https://nlp.ist.i.kyoto-u.ac.jp/index.php?Driving%20domain%20QA%20datasets
 #     code: SLUD2021/src/data/reformat/convert_squad.py
